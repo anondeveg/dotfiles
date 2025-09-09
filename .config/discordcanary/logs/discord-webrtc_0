@@ -2361,3 +2361,302 @@
 [2025-09-09 15:16:33.935] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 134
 [2025-09-09 15:16:35.884] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 80
 [2025-09-09 15:16:36.909] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 104
+[2025-09-09 15:16:37.905] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 933
+[2025-09-09 15:16:37.949] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 933, rtt: 44
+[2025-09-09 15:16:38.220] [32357] (remote_ntp_time_estimator.cc:90): RTP timestamp: 2682460453 in NTP clock: 3966419797766 estimated time in receiver NTP clock: 3966419798343
+[2025-09-09 15:16:38.810] [32544] (encryptor.cpp:201): Encrypted audio: 232267, video: 0. Failed audio: 0, video: 0
+[2025-09-09 15:16:38.810] [32544] (encryptor.cpp:205): Last encrypted frame, type: audio, ssrc: 73354, size: 45
+[2025-09-09 15:16:38.959] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 152
+[2025-09-09 15:16:40.566] [32348] (connection.cpp:1160): [default] Inbound stats for user: 295286627163570186, audio ssrc: 73379, packets received: 68939, lost: 501, audio frames normal: 105004, silent: 351656, expand: 796, video ssrc: 0, codec:  (), packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2025-09-09 15:16:40.566] [32348] (connection.cpp:1198): [default] Outbound audio stats for user: 1414850621433053295, audio ssrc: 73354, packets sent: 37355, packets lost: 14, target bitrate: 64000
+[2025-09-09 15:16:40.566] [32348] (connection.cpp:1349): [default] Transport stats for user: 1414850621433053295, rtt: 44 [ms], available bitrate: 10000000 [bps], outbound estimate: 10000000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 73354: {seq: 27136, tseq: -1},  packets sent: 39573, received: 87257, bytes sent: 6984499, received: 14327006
+[2025-09-09 15:16:40.566] [32348] (connection.cpp:1381): [default] Memory usage: 345 MB, CPU usage: 14%
+[2025-09-09 15:16:40.909] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 97
+[2025-09-09 15:16:42.045] [32351] (audio_device_buffer.cc:462): [REC : 10010msec, 48kHz] callbacks: 999, samples: 479520, rate: 47904, rate diff: 0%, level: 106
+[2025-09-09 15:16:42.045] [32351] (audio_device_buffer.cc:488): [PLAY: 10010msec, 48kHz] callbacks: 1001, samples: 480480, rate: 48000, rate diff: 0%, level: 0
+[2025-09-09 15:16:42.649] [32356] (captured_audio_processor.cpp:133): Audio stream 0, frames processed: 466533, noise canceller process time: 206336 [ms], measured sample rate: 48096 [Hz], sample rate diff: 0%
+[2025-09-09 15:16:42.649] [32356] (captured_audio_processor.cpp:139): Audio stream 0, frame: 466533, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 21
+[2025-09-09 15:16:42.906] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 934
+[2025-09-09 15:16:42.951] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 934, rtt: 44
+[2025-09-09 15:16:43.782] [32326] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:16:43.833] [32326] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:16:44.909] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 91
+[2025-09-09 15:16:45.935] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 115
+[2025-09-09 15:16:47.859] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 60
+[2025-09-09 15:16:47.905] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 935
+[2025-09-09 15:16:47.950] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 935, rtt: 44
+[2025-09-09 15:16:48.225] [32357] (remote_ntp_time_estimator.cc:90): RTP timestamp: 2682940453 in NTP clock: 3966419807765 estimated time in receiver NTP clock: 3966419808342
+[2025-09-09 15:16:48.816] [32544] (encryptor.cpp:201): Encrypted audio: 232767, video: 0. Failed audio: 0, video: 0
+[2025-09-09 15:16:48.816] [32544] (encryptor.cpp:205): Last encrypted frame, type: audio, ssrc: 73354, size: 45
+[2025-09-09 15:16:48.885] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 85
+[2025-09-09 15:16:50.585] [32348] (connection.cpp:1160): [default] Inbound stats for user: 295286627163570186, audio ssrc: 73379, packets received: 68939, lost: 501, audio frames normal: 105004, silent: 352658, expand: 796, video ssrc: 0, codec:  (), packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2025-09-09 15:16:50.585] [32348] (connection.cpp:1198): [default] Outbound audio stats for user: 1414850621433053295, audio ssrc: 73354, packets sent: 37382, packets lost: 14, target bitrate: 64000
+[2025-09-09 15:16:50.585] [32348] (connection.cpp:1349): [default] Transport stats for user: 1414850621433053295, rtt: 44 [ms], available bitrate: 10000000 [bps], outbound estimate: 10000000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 73354: {seq: 27156, tseq: -1},  packets sent: 39604, received: 87268, bytes sent: 6987526, received: 14327598
+[2025-09-09 15:16:50.585] [32348] (connection.cpp:1381): [default] Memory usage: 345 MB, CPU usage: 11%
+[2025-09-09 15:16:50.934] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 133
+[2025-09-09 15:16:51.960] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 159
+[2025-09-09 15:16:52.055] [32351] (audio_device_buffer.cc:462): [REC : 10010msec, 48kHz] callbacks: 1002, samples: 480960, rate: 48048, rate diff: 0%, level: 75
+[2025-09-09 15:16:52.055] [32351] (audio_device_buffer.cc:488): [PLAY: 10010msec, 48kHz] callbacks: 1001, samples: 480480, rate: 48000, rate diff: 0%, level: 0
+[2025-09-09 15:16:52.655] [32356] (captured_audio_processor.cpp:133): Audio stream 0, frames processed: 467532, noise canceller process time: 206703 [ms], measured sample rate: 47952 [Hz], sample rate diff: 0%
+[2025-09-09 15:16:52.655] [32356] (captured_audio_processor.cpp:139): Audio stream 0, frame: 467532, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 0
+[2025-09-09 15:16:52.906] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 936
+[2025-09-09 15:16:52.951] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 936, rtt: 45
+[2025-09-09 15:16:53.860] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 49
+[2025-09-09 15:16:55.960] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 151
+[2025-09-09 15:16:57.286] [32356] (agc_manager_direct.cc:134): Input clipping rate: 0%
+[2025-09-09 15:16:57.532] [32326] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:16:57.539] [32543] (udp_socket.cpp:631): Reconnection started, sending echo
+[2025-09-09 15:16:57.584] [32326] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:16:57.590] [32543] (udp_socket.cpp:204): ReconnectionAttemptFinished: succeeded, local address: 41.43.42.198:50108
+[2025-09-09 15:16:57.907] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 937
+[2025-09-09 15:16:57.910] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 96
+[2025-09-09 15:16:57.952] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 937, rtt: 44
+[2025-09-09 15:16:58.230] [32357] (remote_ntp_time_estimator.cc:90): RTP timestamp: 2683420933 in NTP clock: 3966419817775 estimated time in receiver NTP clock: 3966419818351
+[2025-09-09 15:16:58.822] [32544] (encryptor.cpp:201): Encrypted audio: 233268, video: 0. Failed audio: 0, video: 0
+[2025-09-09 15:16:58.822] [32544] (encryptor.cpp:205): Last encrypted frame, type: audio, ssrc: 73354, size: 45
+[2025-09-09 15:16:58.934] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 120
+[2025-09-09 15:16:59.959] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 144
+[2025-09-09 15:17:00.276] [32348] (decryptor.cpp:133): Decrypted audio: 55743, video: 0. Failed audio: 65, video: 0
+[2025-09-09 15:17:00.604] [32348] (connection.cpp:1160): [default] Inbound stats for user: 295286627163570186, audio ssrc: 73379, packets received: 68955, lost: 501, audio frames normal: 105004, silent: 353660, expand: 796, video ssrc: 0, codec:  (), packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2025-09-09 15:17:00.604] [32348] (connection.cpp:1198): [default] Outbound audio stats for user: 1414850621433053295, audio ssrc: 73354, packets sent: 37466, packets lost: 14, target bitrate: 64000
+[2025-09-09 15:17:00.604] [32348] (connection.cpp:1349): [default] Transport stats for user: 1414850621433053295, rtt: 44 [ms], available bitrate: 10000000 [bps], outbound estimate: 10000000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 73354: {seq: 27234, tseq: -1},  packets sent: 39693, received: 87294, bytes sent: 7002947, received: 14330895
+[2025-09-09 15:17:00.604] [32348] (connection.cpp:1381): [default] Memory usage: 345 MB, CPU usage: 12%
+[2025-09-09 15:17:01.001] [32348] (rtcp_sender.cc:409): Sender Report {ssrc: 73354, ntp: 3966419821:8276401, rtp_timestamp: 2189914502, last_rtp_timestamp: 224815680, last_frame_capture_time_ms: 34794032, now_us: 34794057195, rtp_rate: 48}
+[2025-09-09 15:17:01.858] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 49
+[2025-09-09 15:17:02.065] [32351] (audio_device_buffer.cc:462): [REC : 10010msec, 48kHz] callbacks: 1002, samples: 480960, rate: 48048, rate diff: 0%, level: 1912
+[2025-09-09 15:17:02.065] [32351] (audio_device_buffer.cc:488): [PLAY: 10010msec, 48kHz] callbacks: 1001, samples: 480480, rate: 48000, rate diff: 0%, level: 349
+[2025-09-09 15:17:02.661] [32356] (captured_audio_processor.cpp:133): Audio stream 0, frames processed: 468534, noise canceller process time: 207072 [ms], measured sample rate: 48096 [Hz], sample rate diff: 0%
+[2025-09-09 15:17:02.661] [32356] (captured_audio_processor.cpp:139): Audio stream 0, frame: 468534, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 0
+[2025-09-09 15:17:02.907] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 938
+[2025-09-09 15:17:02.934] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 114
+[2025-09-09 15:17:02.956] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 938, rtt: 48
+[2025-09-09 15:17:04.885] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 62
+[2025-09-09 15:17:06.910] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 111
+[2025-09-09 15:17:07.908] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 939
+[2025-09-09 15:17:07.935] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 116
+[2025-09-09 15:17:07.958] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 939, rtt: 49
+[2025-09-09 15:17:08.236] [32357] (remote_ntp_time_estimator.cc:90): RTP timestamp: 2683902898 in NTP clock: 3966419827816 estimated time in receiver NTP clock: 3966419828392
+[2025-09-09 15:17:08.849] [32544] (encryptor.cpp:201): Encrypted audio: 233769, video: 0. Failed audio: 0, video: 0
+[2025-09-09 15:17:08.849] [32544] (encryptor.cpp:205): Last encrypted frame, type: audio, ssrc: 73354, size: 45
+[2025-09-09 15:17:10.084] [32326] JS console: [ConnectionEventFramerateReducer] BaseConnection.userSpeakingChange: Reduced framerate after 15000 ms.
+[2025-09-09 15:17:10.085] [32348] (audio_send_stream.cc:214): AudioSendStream::ConfigureStream: {rtp: {ssrc: 73354, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 3}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: 6000, max_bitrate_bps: 64000, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, enable_non_sender_rtt: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2025-09-09 15:17:10.085] [32348] (local_user.cpp:1410): Setting voice bitrate to: 64000 [bps]
+[2025-09-09 15:17:10.085] [32348] (audio_send_stream.cc:214): AudioSendStream::ConfigureStream: {rtp: {ssrc: 73354, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 3}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: 6000, max_bitrate_bps: 64000, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, enable_non_sender_rtt: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2025-09-09 15:17:10.621] [32348] (connection.cpp:1160): [default] Inbound stats for user: 295286627163570186, audio ssrc: 73379, packets received: 69008, lost: 501, audio frames normal: 105054, silent: 354583, expand: 796, video ssrc: 0, codec:  (), packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2025-09-09 15:17:10.622] [32348] (connection.cpp:1198): [default] Outbound audio stats for user: 1414850621433053295, audio ssrc: 73354, packets sent: 37466, packets lost: 14, target bitrate: 64000
+[2025-09-09 15:17:10.622] [32348] (connection.cpp:1349): [default] Transport stats for user: 1414850621433053295, rtt: 49 [ms], available bitrate: 10000000 [bps], outbound estimate: 10000000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 73354: {seq: 27234, tseq: -1},  packets sent: 39698, received: 87358, bytes sent: 7003223, received: 14336693
+[2025-09-09 15:17:10.622] [32348] (connection.cpp:1381): [default] Memory usage: 345 MB, CPU usage: 13%
+[2025-09-09 15:17:11.282] [32326] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:17:11.331] [32326] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:17:11.459] [32348] (rtcp_receiver.cc:347): OnPeriodicRttUpdate: Timeout: No increase in RTCP RR extended highest sequence number.
+[2025-09-09 15:17:11.860] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 47
+[2025-09-09 15:17:12.075] [32351] (audio_device_buffer.cc:462): [REC : 10010msec, 48kHz] callbacks: 999, samples: 479520, rate: 47904, rate diff: 0%, level: 96
+[2025-09-09 15:17:12.075] [32351] (audio_device_buffer.cc:488): [PLAY: 10010msec, 48kHz] callbacks: 1001, samples: 480480, rate: 48000, rate diff: 0%, level: 0
+[2025-09-09 15:17:12.687] [32356] (captured_audio_processor.cpp:133): Audio stream 0, frames processed: 469536, noise canceller process time: 207473 [ms], measured sample rate: 48096 [Hz], sample rate diff: 0%
+[2025-09-09 15:17:12.688] [32356] (captured_audio_processor.cpp:139): Audio stream 0, frame: 469536, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 0
+[2025-09-09 15:17:12.909] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 940
+[2025-09-09 15:17:12.964] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 940, rtt: 54
+[2025-09-09 15:17:13.884] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 71
+[2025-09-09 15:17:14.910] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 95
+[2025-09-09 15:17:15.935] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 120
+[2025-09-09 15:17:17.909] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 941
+[2025-09-09 15:17:17.954] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 941, rtt: 44
+[2025-09-09 15:17:18.241] [32357] (remote_ntp_time_estimator.cc:90): RTP timestamp: 2684382898 in NTP clock: 3966419837815 estimated time in receiver NTP clock: 3966419838391
+[2025-09-09 15:17:18.860] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 47
+[2025-09-09 15:17:18.876] [32544] (encryptor.cpp:201): Encrypted audio: 234270, video: 0. Failed audio: 0, video: 0
+[2025-09-09 15:17:18.876] [32544] (encryptor.cpp:205): Last encrypted frame, type: audio, ssrc: 73354, size: 45
+[2025-09-09 15:17:20.642] [32348] (connection.cpp:1160): [default] Inbound stats for user: 295286627163570186, audio ssrc: 73379, packets received: 69008, lost: 501, audio frames normal: 105054, silent: 355586, expand: 796, video ssrc: 0, codec:  (), packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2025-09-09 15:17:20.642] [32348] (connection.cpp:1198): [default] Outbound audio stats for user: 1414850621433053295, audio ssrc: 73354, packets sent: 37466, packets lost: 14, target bitrate: 64000
+[2025-09-09 15:17:20.642] [32348] (connection.cpp:1349): [default] Transport stats for user: 1414850621433053295, rtt: 44 [ms], available bitrate: 10000000 [bps], outbound estimate: 10000000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 73354: {seq: 27234, tseq: -1},  packets sent: 39702, received: 87368, bytes sent: 7003431, received: 14337233
+[2025-09-09 15:17:20.642] [32348] (connection.cpp:1381): [default] Memory usage: 345 MB, CPU usage: 12%
+[2025-09-09 15:17:21.885] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 69
+[2025-09-09 15:17:22.085] [32351] (audio_device_buffer.cc:462): [REC : 10010msec, 48kHz] callbacks: 1002, samples: 480960, rate: 48048, rate diff: 0%, level: 21
+[2025-09-09 15:17:22.085] [32351] (audio_device_buffer.cc:488): [PLAY: 10010msec, 48kHz] callbacks: 1001, samples: 480480, rate: 48000, rate diff: 0%, level: 0
+[2025-09-09 15:17:22.715] [32356] (captured_audio_processor.cpp:133): Audio stream 0, frames processed: 470538, noise canceller process time: 207906 [ms], measured sample rate: 48096 [Hz], sample rate diff: 0%
+[2025-09-09 15:17:22.715] [32356] (captured_audio_processor.cpp:139): Audio stream 0, frame: 470538, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 1
+[2025-09-09 15:17:22.909] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 942
+[2025-09-09 15:17:22.953] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 942, rtt: 44
+[2025-09-09 15:17:23.884] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 80
+[2025-09-09 15:17:24.935] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 131
+[2025-09-09 15:17:25.032] [32326] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:17:25.088] [32326] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:17:25.960] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 155
+[2025-09-09 15:17:27.266] [32348] (audio_send_stream.cc:214): AudioSendStream::ConfigureStream: {rtp: {ssrc: 73354, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 3}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: 6000, max_bitrate_bps: 64000, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, enable_non_sender_rtt: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2025-09-09 15:17:27.266] [32348] (local_user.cpp:1410): Setting voice bitrate to: 64000 [bps]
+[2025-09-09 15:17:27.266] [32348] (audio_send_stream.cc:214): AudioSendStream::ConfigureStream: {rtp: {ssrc: 73354, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 3}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: 6000, max_bitrate_bps: 64000, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, enable_non_sender_rtt: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2025-09-09 15:17:27.303] [32356] (agc_manager_direct.cc:134): Input clipping rate: 0%
+[2025-09-09 15:17:27.860] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 50
+[2025-09-09 15:17:27.909] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 943
+[2025-09-09 15:17:27.953] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 943, rtt: 44
+[2025-09-09 15:17:28.246] [32357] (remote_ntp_time_estimator.cc:90): RTP timestamp: 2684863378 in NTP clock: 3966419847819 estimated time in receiver NTP clock: 3966419848390
+[2025-09-09 15:17:28.881] [32544] (encryptor.cpp:201): Encrypted audio: 234771, video: 0. Failed audio: 0, video: 0
+[2025-09-09 15:17:28.881] [32544] (encryptor.cpp:205): Last encrypted frame, type: audio, ssrc: 73354, size: 45
+[2025-09-09 15:17:29.959] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 151
+[2025-09-09 15:17:30.661] [32348] (connection.cpp:1160): [default] Inbound stats for user: 295286627163570186, audio ssrc: 73379, packets received: 69008, lost: 501, audio frames normal: 105054, silent: 356588, expand: 796, video ssrc: 0, codec:  (), packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2025-09-09 15:17:30.661] [32348] (connection.cpp:1198): [default] Outbound audio stats for user: 1414850621433053295, audio ssrc: 73354, packets sent: 37506, packets lost: 14, target bitrate: 64000
+[2025-09-09 15:17:30.661] [32348] (connection.cpp:1349): [default] Transport stats for user: 1414850621433053295, rtt: 44 [ms], available bitrate: 10000000 [bps], outbound estimate: 10000000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 73354: {seq: 27267, tseq: -1},  packets sent: 39746, received: 87379, bytes sent: 7010492, received: 14337845
+[2025-09-09 15:17:30.661] [32348] (connection.cpp:1381): [default] Memory usage: 345 MB, CPU usage: 12%
+[2025-09-09 15:17:31.893] [32348] (decryptor.cpp:133): Decrypted audio: 55782, video: 0. Failed audio: 65, video: 0
+[2025-09-09 15:17:31.908] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 97
+[2025-09-09 15:17:32.095] [32351] (audio_device_buffer.cc:462): [REC : 10010msec, 48kHz] callbacks: 999, samples: 479520, rate: 47904, rate diff: 0%, level: 457
+[2025-09-09 15:17:32.095] [32351] (audio_device_buffer.cc:488): [PLAY: 10010msec, 48kHz] callbacks: 1001, samples: 480480, rate: 48000, rate diff: 0%, level: 0
+[2025-09-09 15:17:32.720] [32356] (captured_audio_processor.cpp:133): Audio stream 0, frames processed: 471540, noise canceller process time: 208312 [ms], measured sample rate: 48096 [Hz], sample rate diff: 0%
+[2025-09-09 15:17:32.720] [32356] (captured_audio_processor.cpp:139): Audio stream 0, frame: 471540, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 4
+[2025-09-09 15:17:32.909] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 944
+[2025-09-09 15:17:32.954] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 944, rtt: 44
+[2025-09-09 15:17:33.000] [32348] (rtcp_sender.cc:409): Sender Report {ssrc: 73354, ntp: 3966419853:2327872, rtp_timestamp: 2191450262, last_rtp_timestamp: 226352640, last_frame_capture_time_ms: 34826056, now_us: 34826055810, rtp_rate: 48}
+[2025-09-09 15:17:33.858] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 49
+[2025-09-09 15:17:36.859] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 47
+[2025-09-09 15:17:37.909] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 945
+[2025-09-09 15:17:37.954] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 945, rtt: 44
+[2025-09-09 15:17:38.252] [32357] (remote_ntp_time_estimator.cc:90): RTP timestamp: 2685343813 in NTP clock: 3966419857827 estimated time in receiver NTP clock: 3966419858404
+[2025-09-09 15:17:38.782] [32326] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:17:38.833] [32326] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:17:38.858] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 47
+[2025-09-09 15:17:38.886] [32544] (encryptor.cpp:201): Encrypted audio: 235270, video: 0. Failed audio: 0, video: 0
+[2025-09-09 15:17:38.886] [32544] (encryptor.cpp:205): Last encrypted frame, type: audio, ssrc: 73354, size: 85
+[2025-09-09 15:17:40.679] [32348] (connection.cpp:1160): [default] Inbound stats for user: 295286627163570186, audio ssrc: 73379, packets received: 69353, lost: 501, audio frames normal: 105684, silent: 356926, expand: 827, video ssrc: 0, codec:  (), packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2025-09-09 15:17:40.679] [32348] (connection.cpp:1198): [default] Outbound audio stats for user: 1414850621433053295, audio ssrc: 73354, packets sent: 37506, packets lost: 14, target bitrate: 64000
+[2025-09-09 15:17:40.679] [32348] (connection.cpp:1349): [default] Transport stats for user: 1414850621433053295, rtt: 44 [ms], available bitrate: 10000000 [bps], outbound estimate: 10000000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 73354: {seq: 27267, tseq: -1},  packets sent: 39750, received: 87734, bytes sent: 7010716, received: 14406526
+[2025-09-09 15:17:40.679] [32348] (connection.cpp:1381): [default] Memory usage: 345 MB, CPU usage: 14%
+[2025-09-09 15:17:41.642] [32348] (decryptor.cpp:168): Decrypt failed, cannot process nonce: 171340
+[2025-09-09 15:17:41.642] [32348] (decryptor.cpp:115): Decrypt failed, no valid cryptor found, type: audio, encrypted frame size: 179, plaintext frame size: 179, number of cryptor managers: 1, pass through enabled: no
+[2025-09-09 15:17:42.105] [32351] (audio_device_buffer.cc:462): [REC : 10010msec, 48kHz] callbacks: 1002, samples: 480960, rate: 48048, rate diff: 0%, level: 88
+[2025-09-09 15:17:42.105] [32351] (audio_device_buffer.cc:488): [PLAY: 10010msec, 48kHz] callbacks: 1001, samples: 480480, rate: 48000, rate diff: 0%, level: 31105
+[2025-09-09 15:17:42.405] [32348] (decryptor.cpp:133): Decrypted audio: 56128, video: 0. Failed audio: 66, video: 0
+[2025-09-09 15:17:42.726] [32356] (captured_audio_processor.cpp:133): Audio stream 0, frames processed: 472539, noise canceller process time: 208757 [ms], measured sample rate: 47952 [Hz], sample rate diff: 0%
+[2025-09-09 15:17:42.726] [32356] (captured_audio_processor.cpp:139): Audio stream 0, frame: 472539, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 16
+[2025-09-09 15:17:42.909] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 946
+[2025-09-09 15:17:42.955] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 946, rtt: 46
+[2025-09-09 15:17:43.859] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 46
+[2025-09-09 15:17:44.860] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 47
+[2025-09-09 15:17:47.860] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 47
+[2025-09-09 15:17:47.909] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 947
+[2025-09-09 15:17:47.954] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 947, rtt: 45
+[2025-09-09 15:17:48.257] [32357] (remote_ntp_time_estimator.cc:90): RTP timestamp: 2685815912 in NTP clock: 3966419867662 estimated time in receiver NTP clock: 3966419868238
+[2025-09-09 15:17:48.892] [32544] (encryptor.cpp:201): Encrypted audio: 235771, video: 0. Failed audio: 0, video: 0
+[2025-09-09 15:17:48.892] [32544] (encryptor.cpp:205): Last encrypted frame, type: audio, ssrc: 73354, size: 45
+[2025-09-09 15:17:48.910] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 91
+[2025-09-09 15:17:50.699] [32348] (connection.cpp:1160): [default] Inbound stats for user: 295286627163570186, audio ssrc: 73379, packets received: 69567, lost: 500, audio frames normal: 105928, silent: 357678, expand: 827, video ssrc: 0, codec:  (), packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2025-09-09 15:17:50.699] [32348] (connection.cpp:1198): [default] Outbound audio stats for user: 1414850621433053295, audio ssrc: 73354, packets sent: 37611, packets lost: 14, target bitrate: 64000
+[2025-09-09 15:17:50.699] [32348] (connection.cpp:1349): [default] Transport stats for user: 1414850621433053295, rtt: 45 [ms], available bitrate: 10000000 [bps], outbound estimate: 10000000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 73354: {seq: 27395, tseq: -1},  packets sent: 39859, received: 87958, bytes sent: 7024717, received: 14439715
+[2025-09-09 15:17:50.699] [32348] (connection.cpp:1381): [default] Memory usage: 346 MB, CPU usage: 14%
+[2025-09-09 15:17:50.960] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 141
+[2025-09-09 15:17:52.115] [32351] (audio_device_buffer.cc:462): [REC : 10010msec, 48kHz] callbacks: 1002, samples: 480960, rate: 48048, rate diff: 0%, level: 119
+[2025-09-09 15:17:52.115] [32351] (audio_device_buffer.cc:488): [PLAY: 10010msec, 48kHz] callbacks: 1001, samples: 480480, rate: 48000, rate diff: 0%, level: 16237
+[2025-09-09 15:17:52.416] [32348] (decryptor.cpp:133): Decrypted audio: 56238, video: 0. Failed audio: 66, video: 0
+[2025-09-09 15:17:52.537] [32326] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:17:52.587] [32326] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:17:52.731] [32356] (captured_audio_processor.cpp:133): Audio stream 0, frames processed: 473541, noise canceller process time: 209232 [ms], measured sample rate: 48096 [Hz], sample rate diff: 0%
+[2025-09-09 15:17:52.732] [32356] (captured_audio_processor.cpp:139): Audio stream 0, frame: 473541, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 0
+[2025-09-09 15:17:52.859] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 49
+[2025-09-09 15:17:52.909] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 948
+[2025-09-09 15:17:52.953] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 948, rtt: 43
+[2025-09-09 15:17:53.910] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 111
+[2025-09-09 15:17:54.934] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 135
+[2025-09-09 15:17:55.960] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 158
+[2025-09-09 15:17:57.299] [32356] (agc_manager_direct.cc:134): Input clipping rate: 0%
+[2025-09-09 15:17:57.540] [32543] (udp_socket.cpp:631): Reconnection started, sending echo
+[2025-09-09 15:17:57.589] [32543] (udp_socket.cpp:204): ReconnectionAttemptFinished: succeeded, local address: 41.43.42.198:45834
+[2025-09-09 15:17:57.909] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 949
+[2025-09-09 15:17:57.910] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 104
+[2025-09-09 15:17:57.955] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 949, rtt: 46
+[2025-09-09 15:17:58.262] [32357] (remote_ntp_time_estimator.cc:90): RTP timestamp: 2686297093 in NTP clock: 3966419877693 estimated time in receiver NTP clock: 3966419878225
+[2025-09-09 15:17:58.899] [32544] (encryptor.cpp:201): Encrypted audio: 236271, video: 0. Failed audio: 0, video: 0
+[2025-09-09 15:17:58.899] [32544] (encryptor.cpp:205): Last encrypted frame, type: audio, ssrc: 73354, size: 45
+[2025-09-09 15:17:58.934] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 130
+[2025-09-09 15:18:00.717] [32348] (connection.cpp:1160): [default] Inbound stats for user: 295286627163570186, audio ssrc: 73379, packets received: 69643, lost: 500, audio frames normal: 106019, silent: 358585, expand: 827, video ssrc: 0, codec:  (), packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2025-09-09 15:18:00.718] [32348] (connection.cpp:1198): [default] Outbound audio stats for user: 1414850621433053295, audio ssrc: 73354, packets sent: 37638, packets lost: 14, target bitrate: 64000
+[2025-09-09 15:18:00.718] [32348] (connection.cpp:1349): [default] Transport stats for user: 1414850621433053295, rtt: 46 [ms], available bitrate: 10000000 [bps], outbound estimate: 10000000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 73354: {seq: 27412, tseq: -1},  packets sent: 39890, received: 88044, bytes sent: 7027412, received: 14450302
+[2025-09-09 15:18:00.718] [32348] (connection.cpp:1381): [default] Memory usage: 345 MB, CPU usage: 14%
+[2025-09-09 15:18:02.125] [32351] (audio_device_buffer.cc:462): [REC : 10010msec, 48kHz] callbacks: 1002, samples: 480960, rate: 48048, rate diff: 0%, level: 179
+[2025-09-09 15:18:02.125] [32351] (audio_device_buffer.cc:488): [PLAY: 10010msec, 48kHz] callbacks: 1001, samples: 480480, rate: 48000, rate diff: 0%, level: 8179
+[2025-09-09 15:18:02.737] [32356] (captured_audio_processor.cpp:133): Audio stream 0, frames processed: 474540, noise canceller process time: 209688 [ms], measured sample rate: 47952 [Hz], sample rate diff: 0%
+[2025-09-09 15:18:02.737] [32356] (captured_audio_processor.cpp:139): Audio stream 0, frame: 474540, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 0
+[2025-09-09 15:18:02.858] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 47
+[2025-09-09 15:18:02.909] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 950
+[2025-09-09 15:18:02.955] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 950, rtt: 46
+[2025-09-09 15:18:03.860] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 48
+[2025-09-09 15:18:04.561] [32348] (decryptor.cpp:133): Decrypted audio: 56279, video: 0. Failed audio: 66, video: 0
+[2025-09-09 15:18:05.367] [32348] (decryptor.cpp:168): Decrypt failed, cannot process nonce: 172557
+[2025-09-09 15:18:05.367] [32348] (decryptor.cpp:115): Decrypt failed, no valid cryptor found, type: audio, encrypted frame size: 75, plaintext frame size: 75, number of cryptor managers: 1, pass through enabled: no
+[2025-09-09 15:18:05.785] [32348] (rtcp_sender.cc:409): Sender Report {ssrc: 73354, ntp: 3966419885:3373434818, rtp_timestamp: 2193023510, last_rtp_timestamp: 227925120, last_frame_capture_time_ms: 34858825, now_us: 34858840707, rtp_rate: 48}
+[2025-09-09 15:18:06.282] [32326] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:18:06.338] [32326] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:18:07.220] [32326] JS console: [ConnectionEventFramerateReducer] BaseConnection.userSpeakingChange: Reduced framerate after 15000 ms.
+[2025-09-09 15:18:07.221] [32348] (audio_send_stream.cc:214): AudioSendStream::ConfigureStream: {rtp: {ssrc: 73354, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 3}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: 6000, max_bitrate_bps: 64000, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, enable_non_sender_rtt: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2025-09-09 15:18:07.221] [32348] (local_user.cpp:1410): Setting voice bitrate to: 64000 [bps]
+[2025-09-09 15:18:07.221] [32348] (audio_send_stream.cc:214): AudioSendStream::ConfigureStream: {rtp: {ssrc: 73354, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 3}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: 6000, max_bitrate_bps: 64000, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, enable_non_sender_rtt: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2025-09-09 15:18:07.909] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 951
+[2025-09-09 15:18:07.910] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 97
+[2025-09-09 15:18:07.955] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 951, rtt: 46
+[2025-09-09 15:18:08.268] [32357] (remote_ntp_time_estimator.cc:90): RTP timestamp: 2686777768 in NTP clock: 3966419887705 estimated time in receiver NTP clock: 3966419888235
+[2025-09-09 15:18:08.460] [32348] (rtcp_receiver.cc:347): OnPeriodicRttUpdate: Timeout: No increase in RTCP RR extended highest sequence number.
+[2025-09-09 15:18:08.904] [32544] (encryptor.cpp:201): Encrypted audio: 236772, video: 0. Failed audio: 0, video: 0
+[2025-09-09 15:18:08.904] [32544] (encryptor.cpp:205): Last encrypted frame, type: audio, ssrc: 73354, size: 45
+[2025-09-09 15:18:09.857] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 48
+[2025-09-09 15:18:10.736] [32348] (connection.cpp:1160): [default] Inbound stats for user: 295286627163570186, audio ssrc: 73379, packets received: 69799, lost: 499, audio frames normal: 106225, silent: 359372, expand: 827, video ssrc: 0, codec:  (), packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2025-09-09 15:18:10.736] [32348] (connection.cpp:1198): [default] Outbound audio stats for user: 1414850621433053295, audio ssrc: 73354, packets sent: 37638, packets lost: 14, target bitrate: 64000
+[2025-09-09 15:18:10.736] [32348] (connection.cpp:1349): [default] Transport stats for user: 1414850621433053295, rtt: 46 [ms], available bitrate: 10000000 [bps], outbound estimate: 10000000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 73354: {seq: 27412, tseq: -1},  packets sent: 39895, received: 88210, bytes sent: 7027696, received: 14469887
+[2025-09-09 15:18:10.736] [32348] (connection.cpp:1381): [default] Memory usage: 345 MB, CPU usage: 14%
+[2025-09-09 15:18:11.859] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 47
+[2025-09-09 15:18:12.135] [32351] (audio_device_buffer.cc:462): [REC : 10010msec, 48kHz] callbacks: 999, samples: 479520, rate: 47904, rate diff: 0%, level: 95
+[2025-09-09 15:18:12.135] [32351] (audio_device_buffer.cc:488): [PLAY: 10010msec, 48kHz] callbacks: 1001, samples: 480480, rate: 48000, rate diff: 0%, level: 1071
+[2025-09-09 15:18:12.743] [32356] (captured_audio_processor.cpp:133): Audio stream 0, frames processed: 475542, noise canceller process time: 210139 [ms], measured sample rate: 48096 [Hz], sample rate diff: 0%
+[2025-09-09 15:18:12.743] [32356] (captured_audio_processor.cpp:139): Audio stream 0, frame: 475542, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 0
+[2025-09-09 15:18:12.909] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 952
+[2025-09-09 15:18:12.956] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 952, rtt: 47
+[2025-09-09 15:18:13.859] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 47
+[2025-09-09 15:18:14.904] [32348] (decryptor.cpp:133): Decrypted audio: 56479, video: 0. Failed audio: 67, video: 0
+[2025-09-09 15:18:14.909] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 103
+[2025-09-09 15:18:16.859] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 49
+[2025-09-09 15:18:17.784] [32348] (audio_send_stream.cc:214): AudioSendStream::ConfigureStream: {rtp: {ssrc: 73354, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 3}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: 6000, max_bitrate_bps: 64000, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, enable_non_sender_rtt: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2025-09-09 15:18:17.784] [32348] (local_user.cpp:1410): Setting voice bitrate to: 64000 [bps]
+[2025-09-09 15:18:17.784] [32348] (audio_send_stream.cc:214): AudioSendStream::ConfigureStream: {rtp: {ssrc: 73354, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 3}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: 6000, max_bitrate_bps: 64000, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, enable_non_sender_rtt: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2025-09-09 15:18:17.909] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 953
+[2025-09-09 15:18:17.955] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 953, rtt: 46
+[2025-09-09 15:18:18.273] [32357] (remote_ntp_time_estimator.cc:90): RTP timestamp: 2687261893 in NTP clock: 3966419897791 estimated time in receiver NTP clock: 3966419898321
+[2025-09-09 15:18:18.909] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 98
+[2025-09-09 15:18:18.932] [32544] (encryptor.cpp:201): Encrypted audio: 237273, video: 0. Failed audio: 0, video: 0
+[2025-09-09 15:18:18.932] [32544] (encryptor.cpp:205): Last encrypted frame, type: audio, ssrc: 73354, size: 45
+[2025-09-09 15:18:19.935] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 121
+[2025-09-09 15:18:20.032] [32326] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:18:20.083] [32326] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:18:20.753] [32348] (connection.cpp:1160): [default] Inbound stats for user: 295286627163570186, audio ssrc: 73379, packets received: 70033, lost: 499, audio frames normal: 106561, silent: 360025, expand: 827, video ssrc: 0, codec:  (), packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2025-09-09 15:18:20.753] [32348] (connection.cpp:1198): [default] Outbound audio stats for user: 1414850621433053295, audio ssrc: 73354, packets sent: 37674, packets lost: 14, target bitrate: 64000
+[2025-09-09 15:18:20.753] [32348] (connection.cpp:1349): [default] Transport stats for user: 1414850621433053295, rtt: 46 [ms], available bitrate: 10000000 [bps], outbound estimate: 10000000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 73354: {seq: 27439, tseq: -1},  packets sent: 39936, received: 88454, bytes sent: 7033330, received: 14502107
+[2025-09-09 15:18:20.753] [32348] (connection.cpp:1381): [default] Memory usage: 346 MB, CPU usage: 13%
+[2025-09-09 15:18:20.960] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 139
+[2025-09-09 15:18:22.145] [32351] (audio_device_buffer.cc:462): [REC : 10010msec, 48kHz] callbacks: 1002, samples: 480960, rate: 48048, rate diff: 0%, level: 704
+[2025-09-09 15:18:22.145] [32351] (audio_device_buffer.cc:488): [PLAY: 10010msec, 48kHz] callbacks: 1002, samples: 480960, rate: 48048, rate diff: 0%, level: 4081
+[2025-09-09 15:18:22.770] [32356] (captured_audio_processor.cpp:133): Audio stream 0, frames processed: 476544, noise canceller process time: 210573 [ms], measured sample rate: 48096 [Hz], sample rate diff: 0%
+[2025-09-09 15:18:22.770] [32356] (captured_audio_processor.cpp:139): Audio stream 0, frame: 476544, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 1
+[2025-09-09 15:18:22.908] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 954
+[2025-09-09 15:18:22.910] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 89
+[2025-09-09 15:18:22.956] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 954, rtt: 47
+[2025-09-09 15:18:24.134] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 329
+[2025-09-09 15:18:25.859] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 47
+[2025-09-09 15:18:26.886] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 83
+[2025-09-09 15:18:27.295] [32356] (agc_manager_direct.cc:134): Input clipping rate: 0%
+[2025-09-09 15:18:27.909] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 955
+[2025-09-09 15:18:27.909] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 107
+[2025-09-09 15:18:27.956] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 955, rtt: 46
+[2025-09-09 15:18:28.278] [32357] (remote_ntp_time_estimator.cc:90): RTP timestamp: 2687741893 in NTP clock: 3966419907794 estimated time in receiver NTP clock: 3966419908326
+[2025-09-09 15:18:28.958] [32544] (encryptor.cpp:201): Encrypted audio: 237774, video: 0. Failed audio: 0, video: 0
+[2025-09-09 15:18:28.958] [32544] (encryptor.cpp:205): Last encrypted frame, type: audio, ssrc: 73354, size: 45
+[2025-09-09 15:18:29.960] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 155
+[2025-09-09 15:18:30.770] [32348] (connection.cpp:1160): [default] Inbound stats for user: 295286627163570186, audio ssrc: 73379, packets received: 70057, lost: 500, audio frames normal: 106596, silent: 360990, expand: 827, video ssrc: 0, codec:  (), packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2025-09-09 15:18:30.770] [32348] (connection.cpp:1198): [default] Outbound audio stats for user: 1414850621433053295, audio ssrc: 73354, packets sent: 37696, packets lost: 14, target bitrate: 64000
+[2025-09-09 15:18:30.770] [32348] (connection.cpp:1349): [default] Transport stats for user: 1414850621433053295, rtt: 46 [ms], available bitrate: 10000000 [bps], outbound estimate: 10000000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 73354: {seq: 27475, tseq: -1},  packets sent: 39962, received: 88489, bytes sent: 7035893, received: 14505679
+[2025-09-09 15:18:30.770] [32348] (connection.cpp:1381): [default] Memory usage: 345 MB, CPU usage: 11%
+[2025-09-09 15:18:31.800] [32348] (decryptor.cpp:133): Decrypted audio: 56559, video: 0. Failed audio: 67, video: 0
+[2025-09-09 15:18:31.859] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 48
+[2025-09-09 15:18:32.155] [32351] (audio_device_buffer.cc:462): [REC : 10010msec, 48kHz] callbacks: 999, samples: 479520, rate: 47904, rate diff: 0%, level: 95
+[2025-09-09 15:18:32.155] [32351] (audio_device_buffer.cc:488): [PLAY: 10010msec, 48kHz] callbacks: 1000, samples: 480000, rate: 47952, rate diff: 0%, level: 0
+[2025-09-09 15:18:32.797] [32356] (captured_audio_processor.cpp:133): Audio stream 0, frames processed: 477546, noise canceller process time: 210977 [ms], measured sample rate: 48096 [Hz], sample rate diff: 0%
+[2025-09-09 15:18:32.797] [32356] (captured_audio_processor.cpp:139): Audio stream 0, frame: 477546, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 0
+[2025-09-09 15:18:32.909] [32543] (udp_socket.cpp:901): Sending ping to 35.219.228.37:50005, seq: 956
+[2025-09-09 15:18:32.957] [32348] (socket_client.cpp:298): Ping received from 35.219.228.37:50005, seq: 956, rtt: 47
+[2025-09-09 15:18:33.782] [32326] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:18:33.833] [32326] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:18:34.885] [32348] (bitrate_allocator.cc:504): a25ad80 Current BWE 10000000 fraction loss 0 rtt 71

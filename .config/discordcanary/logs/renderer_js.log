@@ -4957,3 +4957,23 @@
 [2025-09-09 15:16:29.769] [warn]  The resource https://canary.discord.com/assets/e52f0cba712e2fb4.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
 [2025-09-09 15:16:30.032] [info]  [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
 [2025-09-09 15:16:30.085] [info]  [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:16:43.782] [info]  [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:16:43.833] [info]  [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:16:57.532] [info]  [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:16:57.584] [info]  [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:17:10.084] [info]  [ConnectionEventFramerateReducer] BaseConnection.userSpeakingChange: Reduced framerate after 15000 ms.
+[2025-09-09 15:17:11.282] [info]  [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:17:11.332] [info]  [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:17:25.032] [info]  [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:17:25.088] [info]  [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:17:38.782] [info]  [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:17:38.833] [info]  [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:17:52.537] [info]  [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:17:52.588] [info]  [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:18:06.282] [info]  [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:18:06.339] [info]  [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:18:07.220] [info]  [ConnectionEventFramerateReducer] BaseConnection.userSpeakingChange: Reduced framerate after 15000 ms.
+[2025-09-09 15:18:20.032] [info]  [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:18:20.083] [info]  [RTCControlSocket(default)] Heartbeat ACK received
+[2025-09-09 15:18:33.782] [info]  [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 18
+[2025-09-09 15:18:33.834] [info]  [RTCControlSocket(default)] Heartbeat ACK received
