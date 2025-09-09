@@ -7,7 +7,7 @@ My configuration files for Arch Linux. Managed using GNU Stow.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/dotfiles.git ~/.dotfiles
+git clone https://github.com/anondeveg/dotfiles.git ~/.dotfiles
 ````
 
 2. Change to the dotfiles directory:
