@@ -1,0 +1,11 @@
+2025/09/09-13:56:57.362 7de0 Creating DB /home/anondev/.config/discordcanary/Local Storage/leveldb since it was missing.
+2025/09/09-13:56:57.384 7de0 Reusing MANIFEST /home/anondev/.config/discordcanary/Local Storage/leveldb/MANIFEST-000001
+2025/09/09-14:02:03.991 7de1 Level-0 table #5: started
+2025/09/09-14:02:04.024 7de1 Level-0 table #5: 1762526 bytes OK
+2025/09/09-14:02:04.031 7de1 Delete type=0 #3
+2025/09/09-14:20:16.127 7de1 Level-0 table #7: started
+2025/09/09-14:20:16.134 7de1 Level-0 table #7: 38022 bytes OK
+2025/09/09-14:20:16.140 7de1 Delete type=0 #4
+2025/09/09-14:53:19.173 7de0 Level-0 table #9: started
+2025/09/09-14:53:19.179 7de0 Level-0 table #9: 30676 bytes OK
+2025/09/09-14:53:19.186 7de0 Delete type=0 #6

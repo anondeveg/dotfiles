@@ -33,7 +33,7 @@ alias ar='yay -Rns'             # AUR package removal
 # -----------------------------
 alias cleanup='doas pacman -Rns $(pacman -Qtdq)'   # remove orphaned packages
 alias cleanpkg='doas pacman -Sc'                   # clean package cache
-
+alias cd='z'
 # -----------------------------
 # Programs Aliases
 # -----------------------------
@@ -43,4 +43,5 @@ alias adown='yt-dlp --extract-audio --audio-format mp3' # download audio only
 alias kbord='setxkbmap -layout us,ara -variant -option "lv3:rwin_switch,grp:alt_shift_toggle,terminate:ctrl_alt_bksp,caps:swapescape" 
 ' # add arabic layout and switch CAPS with ESC
 PS1='[\u@\h \W]\$ '
+eval "$(zoxide init bash)"
 
