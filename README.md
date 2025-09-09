@@ -1,4 +1,3 @@
-````markdown
 # Dotfiles
 
 My configuration files for Arch Linux. Managed using GNU Stow.
@@ -34,5 +33,3 @@ This will create symlinks in your home directory. To remove them:
 ```bash
 stow -D .
 ```
-
-
