@@ -57,6 +57,6 @@ kebup() {
 
 PS1='[\u@\h \W]\$ '
 eval "$(zoxide init bash)"
-export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CONFIG_HOME="/tmp/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
