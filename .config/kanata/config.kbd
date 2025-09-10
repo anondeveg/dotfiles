@@ -3,6 +3,7 @@
   process-unmapped-keys yes
 )
 
+;; defsrc are the keys kanata will change add here if you want to change another key
 (defsrc
   caps a s d f j k l ;
 )

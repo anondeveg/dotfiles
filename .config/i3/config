@@ -14,7 +14,7 @@
 exec polybar --reload -c /home/iq-thegoat/.config/polybar/config.ini &
 exec sxhkd&
 exec picom&
-exec setxkbmap -layout us,ara -variant -option "lv3:rwin_switch,grp:alt_shift_toggle,terminate:ctrl_alt_bksp,caps:swapescape"
+exec kbord
 # border = none
 default_border pixel 0
 exec feh --bg-scale ~/wallpapers/spongebob.png

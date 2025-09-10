@@ -39,9 +39,22 @@ alias cd='z'
 # -----------------------------
 alias grep="rg"
 alias find="fd"
+
+# -----------------------------
+# Sys aliases and functions
+# -----------------------------
 alias adown='yt-dlp --extract-audio --audio-format mp3' # download audio only
-alias kbord='setxkbmap -layout us,ara -variant -option "lv3:rwin_switch,grp:alt_shift_toggle,terminate:ctrl_alt_bksp,caps:swapescape" 
-' # add arabic layout and switch CAPS with ESC
+alias kbord='setxkbmap -layout us,ara -variant -option "lv3:rwin_switch,grp:alt_shft_toggle,terminate:ctrl_alt_bksp'
+# add arabic layout and makes ctrl + alt + bksp kill the x session + makes win key a type 3 mod
+kebdown() {
+    doas sh -c 'echo -n "i8042" > /sys/bus/platform/drivers/i8042/unbind'
+}
+
+
+kebup() {
+    doas sh -c 'echo -n "i8042" > /sys/bus/platform/drivers/i8042/bind'
+}
+
 PS1='[\u@\h \W]\$ '
 eval "$(zoxide init bash)"
 export XDG_CONFIG_HOME="$HOME/.config"
