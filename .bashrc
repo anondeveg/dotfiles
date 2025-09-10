@@ -14,7 +14,7 @@ PS1='[\u@\h \W]\$ '
 # -----------------------------
 # Pacman Aliases (using doas)
 # -----------------------------
-alias i='doas pacman -S'
+alias i='pacwrap.sh'
 alias u='doas pacman -Syu'      # update system
 alias s='pacman -Ss'            # search packages
 alias r='doas pacman -Rns'      # remove packages
@@ -57,6 +57,8 @@ kebup() {
 
 PS1='[\u@\h \W]\$ '
 eval "$(zoxide init bash)"
+
+ln -sr $HOME/.config/* /tmp/.config/ &> /dev/null
 export XDG_CONFIG_HOME="/tmp/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
